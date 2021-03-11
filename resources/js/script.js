@@ -146,10 +146,7 @@ fetch("https://api.covid19api.com/total/country/bangladesh", requestOptions)
     document.getElementById("cvDeath").innerHTML = convertNum(yday.Deaths.toString()); 
     document.getElementById("cvActive").innerHTML = convertNum(yday.Recovered.toString()); 
     document.getElementById("cvRec").innerHTML = convertNum(yday.Active.toString()); 
-    
-    
-    
-    
+     
     
     //Line chart for total Death
     var found = [sevenDaysAgoFound, sixDaysAgoFound, fiveDaysAgoFound, fourDaysAgoFound, threeDaysAgoFound, twoDaysAgoFound, ydayFound];    

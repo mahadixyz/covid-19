@@ -144,8 +144,8 @@ fetch("https://api.covid19api.com/total/country/bangladesh", requestOptions)
     // HighCharts
     document.getElementById("cvFound").innerHTML = convertNum(yday.Confirmed.toString());
     document.getElementById("cvDeath").innerHTML = convertNum(yday.Deaths.toString()); 
-    document.getElementById("cvActive").innerHTML = convertNum(yday.Recovered.toString()); 
-    document.getElementById("cvRec").innerHTML = convertNum(yday.Active.toString()); 
+    document.getElementById("cvActive").innerHTML = convertNum(yday.Active.toString()); 
+    document.getElementById("cvRec").innerHTML = convertNum(yday.Recovered.toString()); 
      
     
     //Line chart for total Death

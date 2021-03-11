@@ -1,4 +1,4 @@
-# Covid-19 Stats and graph
+# Covid-19 Stats and graph for Bangladesh
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/mahadixyz/covid-19?style=flat-square)
 ![License](https://img.shields.io/github/license/mahadixyz/blog-template?style=flat-square)

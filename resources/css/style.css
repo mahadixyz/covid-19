@@ -1,0 +1,35 @@
+@font-face {
+    font-family: atma;
+    src: url(../webfonts/Atma-Regular.ttf);
+}
+
+@font-face {
+    font-family: bangla;
+    src: url(../webfonts/HindSiliguri-Regular.ttf);
+}
+
+@font-face {
+    font-family: oxy;
+    src: url(../webfonts/Oxygen-Regular.ttf);
+}
+
+body
+{
+  font-family: oxy;
+}
+
+.bn
+{
+  font-family: bangla;
+}
+
+.heading
+{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.num
+{
+  font-family: atma;
+}

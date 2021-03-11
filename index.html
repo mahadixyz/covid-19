@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Stats | Bangladesh</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="resources/img/favicon.png" />
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+
+     <!-- Ion Icons -->
+     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row my-5">
+            <div class="col text-success p-4 border">
+                <h2 class="text-center display-4">Covid-19 Information, Bangladesh</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12 col-md-3 text-center p-4 border">
+                <p class="h2 bn">সনাক্ত</p>
+                <span class="h2 num text-primary" id="cvFound"></span>
+            </div>
+            <div class="col-sm-12 col-md-3 text-center p-4 border">
+                <p class="h2 bn">মৃত্যু</p>
+                <span class="h2 num text-danger" id="cvDeath"></span>
+            </div>
+            <div class="col-sm-12 col-md-3 text-center p-4 border">
+                <p class="h2 bn">সুস্থ্য</p>
+                <span class="h2 num text-success" id="cvRec"></span>
+            </div>
+            <div class="col-sm-12 col-md-3 text-center p-4 border">
+                <p class="h2 bn">বর্তমান আক্রান্ত</p>
+                <span class="h2 num text-warning" id="cvActive"></span>
+            </div>
+        </div>
+        
+        <div class="row my-5">
+            <div class="col-sm-12 col-md-6 p-3 border">
+                <figure class="highcharts-figure">
+                    <div id="line-chart"></div>
+                    <p class="highcharts-description">
+                        বিগত এক সপ্তাহে দৈনিক কোভিড-<span class="num">১৯</span> মৃত রোগীর সংখ্যা
+                    </p>
+                </figure>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 p-3 border">
+                <figure class="highcharts-figure">
+                    <div id="cyl-chart"></div>
+                    <p class="highcharts-description">
+                        বিগত এক সপ্তাহে দৈনিক কোভিড-<span class="num">১৯</span> আক্রান্ত রোগীর সংখ্যা
+                    </p>
+                </figure>
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            <div class="col p-3 border text-center">
+                Created with <span class="text-danger"><ion-icon name="heart"></ion-icon></span> by: <a href="https://www.mahadiscode.xyz/" target="_blank">Mahadi Hasan</a>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <!-- Javascripts -->
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/js/bootstrap.bundle.min.js"></script>
+    <!-- Highcharts -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/cylinder.js"></script>
+    <script src="https://code.highcharts.com/modules/timeline.js"></script>
+   
+    <!-- Custom Js -->
+    <script src="resources/js/script.js"></script>
+    
+</body>
+</html>

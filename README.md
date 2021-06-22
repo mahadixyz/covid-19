@@ -1,11 +1,11 @@
 # Covid-19 Stats and graph for Bangladesh
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/mahadixyz/covid-19?style=flat-square)
-![License](https://img.shields.io/github/license/mahadixyz/blog-template?style=flat-square)
+![License](https://img.shields.io/github/license/mahadixyz/covid-19?style=flat-square)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat-square)
 ![Last-commit](https://img.shields.io/github/last-commit/mahadixyz/covid-19?style=flat-square)
 
-This is a Covid-19 Stats for Banglades built with JavaScript using API from covid19api.com.
+Day to Day Covid-19 Stats for Banglades built with JavaScript using API from covid19api.com.
 
 ## Project Information
 ![Language](https://img.shields.io/github/languages/count/mahadixyz/covid-19?style=flat-square)
